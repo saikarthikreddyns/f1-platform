@@ -1,0 +1,44 @@
+# Data and telemetry
+data/
+*.parquet
+.fastf1/
+
+# Secrets and environment
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Node.js
+node_modules/
+dist/
+build/
+
+# Go binaries
+bin/
+*.exe
+
+# Temporary scripts
+*.bat
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+PROGRESS.md
+F1_PLATFORM_PLAN.md
+
+# Data and telemetry
+data/
+ml/cache/
+*.parquet
+*.ff1pkl
+*.sqlite
+.fastf1/
